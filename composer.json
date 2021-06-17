@@ -1,0 +1,25 @@
+{
+    "name": "dtabirca/powercloud-coding-challenge",
+    "description": "coding test",
+    "version": "1.0.0-dev",
+    "type": "project",
+    "homepage": "https://github.com/dtabirca/powercloud-coding-challenge",
+    "authors": [
+        {
+            "name": "Daniel Tabirca",
+            "email": "dtabirca@gmail.com",
+            "homepage": "https://github.com/dtabirca",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    	"php" : ">=7.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": { "Powercloud\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Powercloud\\Tests\\": "tests/" }
+    }
+}
